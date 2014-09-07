@@ -32,7 +32,7 @@ ADD jenkins_setup.sh /etc/my_init.d/jenkins_setup.sh
 RUN chmod +x /etc/my_init.d/jenkins_setup.sh
 
 # set jenkins home
-ENV JENKINS_HOME="/var/lib/jenkins"
+ENV JENKINS_HOME /var/lib/jenkins
 
 # expose port
 EXPOSE 8080
